@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subdomain Takeover PoC</title>
+    <style>
+        body { font-family: sans-serif; max-width: 700px; margin: 60px auto; padding: 20px; background: #f5f5f5; }
+        .box { background: white; padding: 30px; border-radius: 8px; }
+        h1 { color: #d32f2f; }
+        .warn { background: #d32f2f; color: white; padding: 4px 12px; border-radius: 4px; font-size: 12px; }
+        code { background: #eee; padding: 2px 6px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span class="warn">PROOF OF CONCEPT</span>
+        <h1>⚠️ Subdomain Takeover</h1>
+        <p>This page is served from <code>verify.rolly.io</code> via subdomain takeover.</p>
+        <p>verify.rolly.io → CNAME → <code>ulhgvdmz.up.railway.app</code></p>
+        <p>The original Railway project was deleted. This project claimed the name.</p>
+    </div>
+</body>
+</html>
